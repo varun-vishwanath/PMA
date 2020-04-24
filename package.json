@@ -1,0 +1,38 @@
+{
+  "homepage": "http://anupsv1989.github.io/PMA",
+  "name": "PMA",
+  "version": "1.0.0",
+  "description": "Project management app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anupsv1989/PMA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anupsv1989/PMA/issues"
+  },
+  "homepage": "https://github.com/anupsv1989/PMA#readme",
+  "dependencies": {
+    "antd": "^4.0.4",
+    "next": "^9.3.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

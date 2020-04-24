@@ -1,0 +1,47 @@
+.menuStyle {
+    border : 5px solid #75b6eb;
+    height: 50px;
+    padding-top: 5px;
+}
+
+.ant-modal-content{
+    width: 1000px;
+    top: 10%;
+    position: relative;
+    right: 50%;
+}
+
+.modal-Layout{
+    width: 700px;
+    height: 400px;
+}
+
+.action-button-bg{
+    background-color: #75b6eb;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.parent-release-sec{
+    background-color: #fafafa;
+    width: 100%;
+    padding-top: 22px;
+    padding-left: 20px;
+}
+
+.parent-release-sec-col {
+    padding : 5px;
+}
+
+.left-addCol{
+    margin-right: 30px;
+}
+
+.enddate-align{
+    padding-left: 20px;
+}
+
+.btn-add-child{
+    text-align: right;
+    padding-right: 50px;
+}
